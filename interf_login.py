@@ -10,9 +10,9 @@ class aplicativo (App):
 
 ### tela login
 
-class login.app (App):
+class loginapp (App):
 	def build (self):
-		main_widget = buider.load_string (main_widget_kv):
+		main_widget = buider.load_string(main_widget_kv)
 		return main_widget
 		
 	def login(self):
@@ -20,9 +20,7 @@ class login.app (App):
 		senha = self.root.ids.senha.text
 ###implementa resgras para acesso :
 
-		if usuario == 'admin' and senha == 'admin':
-            pass
-			
-			
-login.app().run()		
+		##if usuario == 'admin' and senha == 'admin':
+      			
+loginapp().run()		
 aplicativo().run()
